@@ -1,11 +1,11 @@
 import streamlit as st
 
-st.set_page_config(page_title="Sportska Analitika", layout="wide")
+st.set_page_config(page_title="Moja Aplikacija", layout="centered")
 
-st.title("Dobrodošli u bazu za analizu")
-st.write("Ovdje krećemo sa izgradnjom novog sistema od nule.")
+st.title("Hashim Sport Pro")
+st.write("Dobrodošli u vašu sportsku analitičku platformu.")
 
-sport = st.selectbox("Izaberi sport za početnu analizu:", ["Fudbal (3+ golovi)", "Košarka (Margine poena)"])
+# Ovo je sigurna i ispravna verzija linije 11
+st.success("Sistem je uspješno učitan i spreman za rad.")
 
-if st.button("Pokreni sistem"):
-    st.success(f"Sistem spreman za modul
+st.info("Sistem je spreman za unos podataka.")
